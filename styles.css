@@ -1,0 +1,60 @@
+/*
+COLORS
+#4baea0
+#b6e6bd
+#f1f0cf
+#f0c9c9*/
+
+body{
+  background-color: #b6e6bd;
+  text-align: center;
+
+  font-family: 'Jaldi', sans-serif;
+  font-size: 1.2rem;
+}
+
+
+
+h1{
+  font-family: 'Sacramento', cursive;
+  font-size: 8rem;
+  margin: 10% auto;
+}
+
+
+.navbar-custom{
+  background-color: #b6e6bd !important;
+}
+
+.navbar-brand{
+  font-family: 'Sacramento', cursive;
+  font-size: 2.5rem;
+}
+
+.navbar-nav{
+  margin: 0 0 0 5%;
+}
+
+.nav-item{
+  margin: 0 10%;
+  padding: 10px;
+  transition: 0.3s;
+}
+
+
+
+.search-bar{
+  font-size: 1.2rem;
+    border-radius: 15px;
+}
+
+.search-button{
+  border-color: #4baea0;
+  font-size: 1.2rem;
+  border-radius: 15px;
+  color: #4baea0;
+}
+
+.search-button:hover{
+  background: #4baea0;
+}
