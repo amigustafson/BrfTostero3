@@ -13,14 +13,21 @@ body{
   font-size: 1.2rem;
 }
 
-
+ul{
+  width: 50%;
+}
 
 h1{
   font-family: 'Sacramento', cursive;
   font-size: 8rem;
-  margin: 10% auto;
+  margin: 10% 2% 0 2%;
+  text-align: left;
 }
 
+p{
+  text-align: left;
+  margin: 2%;
+}
 
 .navbar-custom{
   background-color: #b6e6bd !important;
@@ -31,12 +38,10 @@ h1{
   font-size: 2.5rem;
 }
 
-.navbar-nav{
-  margin: 0 0 0 5%;
-}
+
 
 .nav-item{
-  margin: 0 10%;
+  margin: 0 8%;
   padding: 10px;
   transition: 0.3s;
 }
@@ -57,4 +62,18 @@ h1{
 
 .search-button:hover{
   background: #4baea0;
+}
+
+
+.col1{
+  background-color: pink
+}
+.col2{
+  background-color: yellow;
+}
+.kontakt-col1{
+background-color: lightblue;
+}
+.kontakt-col2{
+  background-color: lime;
 }
