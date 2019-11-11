@@ -6,6 +6,7 @@
   <title>Tosterö 3</title>
   <link href="https://fonts.googleapis.com/css?family=Jaldi|Sacramento&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <!-- <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css"> -->
   <link rel="stylesheet" href="styles.css">
 </head>
 
@@ -18,44 +19,133 @@
     </button>
 
     <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
-      <a class="navbar-brand" href="#">Tosterö 3</a>
+      <a class="navbar-brand" href="index.html">Tosterö 3</a>
 
       <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-        <li class="nav-item active">
-          <a class="nav-link" href="#">Start<span class="sr-only">(current)</span></a>
+        <li class="nav-item">
+          <a class="nav-link" href="medlem.html">För Medlemmar</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Link</a>
+          <a class="nav-link" href="bildgalleri.html">Bildgalleri</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Link</a>
+          <a class="nav-link" href="maklarinfo.html">Mäklarinfo</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Link</a>
+          <a class="nav-link" href="styrelse.html">För styrelse</a>
         </li>
 
       </ul>
 
-      <form class="form-inline my-2 my-lg-0">
+    <!--  SÖKRUTA
+    <form class="form-inline my-2 my-lg-0">
         <input class="form-control mr-sm-2 search-bar" type="search" placeholder="Sök" aria-label="Search">
         <button class="btn btn-outline-success my-2 my-sm-0 search-button" type="submit">Sök</button>
-      </form>
+      </form> -->
+
     </div>
 
   </nav>
 
 
 <!-- CONTENT -->
-<h1>Tosterö 3</h1>
-<p>Testar bokstäver: åäö</p>
+<div class="row page-row">
+  <div class="col-md-8 col1">
+    <div class="row">
 
 
-  <!-- SCRIPTS: jquery, popper, bootstrap js, js-->
-  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-  <script type="text/javascript" src="script.js"></script>
+    <div class="welcome-text col-md-6">
+
+      <h1>Tosterö 3</h1>
+      <p class="start-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sed pretium purus. Nulla hendrerit leo et ante condimentum imperdiet. Integer bibendum est sit amet ex lacinia malesuada. In scelerisque mattis accumsan. Quisque eget elit neque. Etiam vestibulum felis et orci suscipit, in blandit enim consequat.  </p>
+      <a class="medlemsknapp" href="medlem.html">Till Medlemssidan</a>
+
+    </div>
+
+    <div class="col-md-6">
+      <img id="front-img" class="front-img" src="imgs/puppy.jpg" alt="Bild på Flippan">
+    </div>
+  </div>
+    <div class="row kontakter-container">
+          <div class="col-6 kontakt-col1">
+            <h2 class="kontakt-rubrik kontakt-kontakt-rubrik">Kontakt</h2>
+            <div class="kontakt-text">
+
+
+            <p><strong>Rådstornet:</strong> 2390756204875 // lsirgirbg@öorsgn.com</p>
+            <p><strong>Aphos:</strong> 2390756204875 // lsirgirbg@öorsgn.com</p>
+            <p><strong>Styrelsen:</strong> lsirgirbg@öorsgn.com</p>
+          </div>
+          </div>
+          <div class="col-6 kontakt-col2">
+            <h2 class="kontakt-rubrik">Kom ihåg</h2>
+            <p class="kontakt-text">att styrelsen inte arbetar akutstyrt och inte heller svarar på alla
+              frågor. Se till att ställa rätt fråga till rätt person. Läs mer om detta
+            på <a href="medlem.html">Medlemssidan</a>.<p>
+          </div>
+        </div>
+
+
+  </div>
+
+  <div class="col-md-4 col2 nyheter-container">
+    <h2 class="nyheter-rubrik" >Nyheter</h2>
+
+  <div class="nyhet">
+    <img class="news-img" src="imgs/puppy.jpg" alt="nyhetsbild">
+    <div class="row news-row">
+      <div class="col-2">
+        <button class="news-button" type="button" name="button" <i class="fas fa-caret-right"></i></i>></button>
+      </div>
+      <div class="col-10">
+          <h5 class="news-header news-text" >
+            News
+          </h5>
+          <p class="news-paragraph news-text">This is the news</p>
+      </div>
+    </div>
+  </div>
+  <div class="nyhet">
+    <img class="news-img" src="imgs/puppy.jpg" alt="nyhetsbild">
+    <div class="row news-row">
+      <div class="col-2">
+        <button class="news-button" type="button" name="button" <i class="fas fa-caret-right"></i></i>></button>
+      </div>
+      <div class="col-10">
+          <h5 class="news-header news-text" >
+            News
+          </h5>
+          <p class="news-paragraph news-text">This is the news</p>
+      </div>
+    </div>
+  </div>
+  <div class="nyhet">
+    <img class="news-img" src="imgs/puppy.jpg" alt="nyhetsbild">
+    <div class="row news-row">
+      <div class="col-2">
+        <button class="news-button" type="button" name="button" <i class="fas fa-caret-right"></i></i>></button>
+      </div>
+      <div class="col-10">
+          <h5 class="news-header news-text" >
+            News
+          </h5>
+          <p class="news-paragraph news-text">This is the news</p>
+      </div>
+    </div>
+  </div>
+  </div>
+
+
+</div>
+
+<!-- SCRIPTS: jquery, popper, bootstrap js, js-->
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+<script type="text/javascript" src="script.js"></script>
 
 </body>
+
+
 
 </html>
