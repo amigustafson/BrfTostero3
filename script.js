@@ -28,3 +28,24 @@ function timeImage(){
   }
 }
 timeImage(time);
+
+//UppKnapp
+
+var knappen = document.getElementById("uppKnapp");
+
+ window.onScroll = function(){nedScroll()};
+//visa knapp efter lite nedscroll
+function nedScroll(){
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20){
+    knappen.style.display = "block";}
+  else{
+    knappen.style.display = "none";
+  }
+}
+
+//scrolla upp efter klick på knapp
+
+function upp(){
+  document.documentElement.scrollTop = 0;//alla browsers utom Safari
+  document.body.scrollTop = 0;//Safari
+}
