@@ -266,21 +266,21 @@ margin-top: 23%;
 /*--------------UppKnapp----------------*/
 
 #uppKnapp {
-  display: none; /* Hidden by default */
   position: fixed; /* Fixed/sticky position */
-  bottom: 7%; /* Place the button at the bottom of the page */
-  right: 7%; /* Place the button 30px from the right */
+  bottom: 4%; /* Place the button at the bottom of the page */
+  right: 2.5%; /* Place the button 30px from the right */
   z-index: 99; /* Make sure it does not overlap */
   border: none; /* Remove borders */
   outline: none; /* Remove outline */
-  background-color: red; /* Set a background color */
-  color: white; /* Text color */
+  background-color: #f0c9c9; /* Set a background color */
+  color: #fcfcfc; /* Text color */
   cursor: pointer; /* Add a mouse pointer on hover */
-  padding: 15px; /* Some padding */
+  padding: 0 20px; /* Some padding */
   border-radius: 10px; /* Rounded corners */
-  font-size: 18px; /* Increase font size */
+  font-size: 4rem; /* Increase font size */
+  transition: 0.125s
 }
 
 #uppKnapp:hover {
-  background-color: #555; /* Add a dark-grey background on hover */
+  background-color: #b6e6bd; /* Add a dark-grey background on hover */
 }
