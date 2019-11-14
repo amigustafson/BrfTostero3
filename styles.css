@@ -7,6 +7,10 @@ COLORS
 #fcfcfc
 #333333*/
 
+html{
+  scroll-behavior: smooth;
+}
+
 html,body{
   height: 100%;
 }
@@ -266,6 +270,7 @@ margin-top: 23%;
 /*--------------UppKnapp----------------*/
 
 #uppKnapp {
+
   position: fixed; /* Fixed/sticky position */
   bottom: 4%; /* Place the button at the bottom of the page */
   right: 2.5%; /* Place the button 30px from the right */
@@ -283,4 +288,8 @@ margin-top: 23%;
 
 #uppKnapp:hover {
   background-color: #b6e6bd; /* Add a dark-grey background on hover */
+}
+
+.changeColor{
+  background-color: green;
 }

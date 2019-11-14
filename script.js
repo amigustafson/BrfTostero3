@@ -30,8 +30,17 @@ function timeImage(){
 timeImage(time);
 
 //UppKnapp
+const uppKnapp = documentquerySelector("#uppKnapp");
+  if (scrollY > 10) {
+              uppKnapp.addClass("changeColor");
+          } else {
+              uppKnapp.removeClass("changeColor");
+          }
 
+
+
+
+//OnClick
 function uppFunction(){
-  document.documentElement.scrollTop = 0;//alla browsers utom Safari
-  document.body.scrollTop = 0;//Safari
+  window.scrollTo(0,0)
 }
