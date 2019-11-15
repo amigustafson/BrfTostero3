@@ -2,9 +2,8 @@
 
 //Image change over the course of the day.
 
-var time = new Date().getHours();
-
 function timeImage(){
+  var time = new Date().getHours();
   //morning: 0500-1000
   if (5 <= time && time < 10){
     document.getElementById("front-img").src="imgs/morning.png";
@@ -27,4 +26,28 @@ function timeImage(){
     console.log(time + "night");
   }
 }
-timeImage(time);
+
+//timeImage();
+
+//UppKnapp
+// const uppKnapp = documentquerySelector("#uppKnapp");
+//   if (scrollY > 10) {
+//               uppKnapp.addClass("changeColor");
+//           } else {
+//               uppKnapp.removeClass("changeColor");
+//           }
+
+window.addEventListener("scroll", ()=>{
+  var scrollDistance = window.scrollY;
+  if(scrollDistance > 50){
+    document.querySelector("#uppKnapp").style.opacity=1
+  }
+
+})
+
+
+
+//OnClick
+function uppFunction(){
+  window.scrollTo(0,0)
+}
