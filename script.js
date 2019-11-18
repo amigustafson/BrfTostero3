@@ -27,20 +27,19 @@ function timeImage(){
   }
 }
 
-//timeImage();
-
-//UppKnapp
-// const uppKnapp = documentquerySelector("#uppKnapp");
-//   if (scrollY > 10) {
-//               uppKnapp.addClass("changeColor");
-//           } else {
-//               uppKnapp.removeClass("changeColor");
-//           }
 
 window.addEventListener("scroll", ()=>{
   var scrollDistance = window.scrollY;
   if(scrollDistance > 50){
     document.querySelector("#uppKnapp").style.opacity=1
+  }
+
+})
+
+window.addEventListener("scroll", ()=>{
+  var scrollDistance = window.scrollY;
+  if(scrollDistance > 50){
+    document.querySelector("#uppKnapp2").style.opacity=1
   }
 
 })
