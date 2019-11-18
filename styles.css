@@ -36,8 +36,16 @@ h1{
 }
 
 h2{
+  font-family: 'Sacramento', cursive;
+  font-size: 5rem;
+  margin: 0;
+}
+
+h3{
+  font-size: 2rem;
   margin: 0 0 0 15%;
 }
+
 
 p{
   text-align: left;
@@ -81,6 +89,11 @@ a{
   background: #4baea0;
 }
 
+.breadcrumbs{
+  font-size: 1rem;
+  padding: 0;
+  margin-left: 10px;
+}
 
 /* ------------------- STARTSIDA ----------------------*/
 
@@ -195,7 +208,7 @@ transition: 0.2s;
 }
 
 .kontakter-container{
-  margin-top: 13%;
+  margin-top: 12.7%;
   border-radius: 80px 80px 0 80px;
   background-color: #b6e6bd;
   max-height: 30vh;
@@ -208,7 +221,7 @@ transition: 0.2s;
 }
 
 .nyheter-container{
-  max-height: 85vh;
+  max-height: 85.1vh;
   padding: 5px;
   margin: 0;
   border-radius: 80px 80px 80px 0;
@@ -262,6 +275,73 @@ margin-top: 23%;
   margin-top:22%;
 }
 
+.center-text{
+  text-align: center;
+}
+
+.carousel-inner{
+    height: 50vh;
+    display: flex;
+    align-items: center;
+}
+
+.item img{
+    height: 100% !important;
+    width:  100% !important;
+}
+
+
+
+
+.carousel-control-prev{
+  background-color: #b6e6bd;
+}
+
+.carousel-control-next{
+  background-color: #b6e6bd;
+}
+
+.bildarkiv-links{
+  text-align: center;
+  margin: 2% auto;
+
+}
+
+.bildarkiv-link{
+  width: 50%;
+  max-height: 28vh;
+  border-radius: 40px;
+  transition: 0.2s;
+}
+.bildarkiv-link:hover{
+  width: 55%;
+}
+
+.galleri{
+  margin: 2% 10%;
+}
+
+.galleri-bild{
+  border-radius: 0 0 40px 40px;
+  transition: 0.2s;
+  border-style: hidden;
+}
+
+.galleri-bild:hover{
+  background-color: #b6e6bd;
+  cursor: pointer;
+}
+
+.modal-content{
+border-style: hidden;
+border-radius: 40px;
+box-shadow: none;
+}
+
+.modal-img{
+  width: 100%;
+}
+
 /*____________________________________________________________________________*/
 .center-text{
   text-align: center;
@@ -288,8 +368,4 @@ margin-top: 23%;
 
 #uppKnapp:hover {
   background-color: #b6e6bd; /* Add a dark-grey background on hover */
-}
-
-.changeColor{
-  background-color: green;
 }
