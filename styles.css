@@ -57,6 +57,10 @@ a{
   color: #333333;
 }
 
+.btn.active.focus, .btn.active:focus, .btn.focus, .btn:active.focus, .btn:active:focus, .btn:focus {
+    outline: 0;
+}
+
 .navbar-custom{
   background-color: #f1f0cf !important;
   height: 15vh;
@@ -201,6 +205,10 @@ transition: 0.2s;
   margin-left: 8%;
 }
 
+.start-text{
+  margin: 0 0 15.8% 5%;
+}
+
 /*-------------------- LAYOUT --------------------------*/
 
 .col1{
@@ -269,7 +277,7 @@ align-items: center;
 
 .tre-stora-knappar:hover{
   width: 50%;
-
+  cursor: pointer;
 }
 
 .text-tre-stora-knappar{
@@ -317,8 +325,22 @@ margin-top: 23%;
 }
 
 
+.nytt-tosteroblad{
+  width: 100%;
+  margin: 0;
+}
 
+.gammalt-tosteroblad{
+  width: 60%;
+  margin: 5% 20% 0 20%;
+}
 
+.gammalt-tosteroblad:hover{
+  cursor: pointer;
+  width: 64%;
+  margin: 5% 17% 0 17%;
+  transition: 0.125s;
+}
 
 
 .carousel-control, .carousel-control:focus{
