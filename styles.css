@@ -122,6 +122,7 @@ a{
 .nyhet:hover{
   width: 85%;
   height: 32%;
+  cursor: pointer;
 }
 
 .news-img{
@@ -132,23 +133,6 @@ a{
   border-radius: 40px;
 }
 
-.news-button{
-border-radius: 30%;
-width: 100%;
-height: auto;
-margin: 15% 0  0 50%;
-font-size: 1.25rem;
-text-align: center;
-background: #fcfcfc;
-box-shadow: none;
-border:none;
-transition: 0.2s;
-}
-
-.news-button:hover{
-  background: #4baea0;
-  color: #fcfcfc;
-}
 
 .news-text{
  margin: 0;
@@ -243,13 +227,13 @@ transition: 0.2s;
   line-height: 0.9;
 }
 
-.maklarinfo-text{
+.maklarinfo-text, .moteninfo-text{
 display: flex;
 flex-direction: column;
 align-items: center;
 }
 
-.maklarinfo-paragraf{
+.maklarinfo-paragraf, .moteninfo-paragraf{
   margin-top: 5%;
   padding: 5%;
   border-radius: 40px;
@@ -257,7 +241,7 @@ align-items: center;
   background-color: #fcfcfc;
 }
 
-.maklarinfo-paragraf, ul{
+.maklarinfo-paragraf ul, .moteninfo-paragraf ul{
   width: 100%;
 }
 
@@ -287,6 +271,17 @@ align-items: center;
   flex-direction: column;
   text-align: center;
 
+}
+
+.two-big-imgs{
+  margin: 15% 33% 5% 33%;
+  width: 30%;
+  transition: 0.125s;
+}
+
+.two-big-imgs:hover{
+  width: 35%;
+  cursor: pointer;
 }
 
 .header-kontakt{
@@ -325,17 +320,17 @@ margin-top: 23%;
 }
 
 
-.nytt-tosteroblad{
+.nytt-tosteroblad, .nytt-protokoll{
   width: 100%;
   margin: 0;
 }
 
-.gammalt-tosteroblad{
+.gammalt-tosteroblad, .gammalt-protokoll{
   width: 60%;
   margin: 5% 20% 0 20%;
 }
 
-.gammalt-tosteroblad:hover{
+.gammalt-tosteroblad:hover, .gammalt-protokoll:hover{
   cursor: pointer;
   width: 64%;
   margin: 5% 17% 0 17%;
