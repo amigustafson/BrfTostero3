@@ -42,14 +42,14 @@ h2{
 }
 
 h3{
+  text-align: left;
   font-size: 2rem;
-  margin: 0 0 0 15%;
 }
 
 
 p{
   text-align: left;
-  margin: 1% 0 0 4%;
+
   font-size: 1rem;
 }
 
@@ -193,6 +193,10 @@ transition: 0.2s;
   margin: 5%;
 }
 
+.kontakt-text p{
+  margin: 1% 0 0 4%;
+}
+
 .kontakt-kontakt-rubrik{
   margin-left: 8%;
 }
@@ -225,6 +229,28 @@ transition: 0.2s;
   padding: 5px;
   margin: 0;
   border-radius: 80px 80px 80px 0;
+}
+
+.letter-index, h3{
+  line-height: 0.9;
+}
+
+.maklarinfo-text{
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+.maklarinfo-paragraf{
+  margin-top: 5%;
+  padding: 5%;
+  border-radius: 40px;
+  transition: 0.12s;
+  background-color: #fcfcfc;
+}
+
+.maklarinfo-paragraf, ul{
+  width: 100%;
 }
 
 /*____________________________________________________________________________*/
@@ -293,12 +319,17 @@ margin-top: 23%;
 
 
 
-.carousel-control-prev{
+
+
+.carousel-control, .carousel-control:focus{
   background-color: #b6e6bd;
+  opacity: 0.5;
 }
 
-.carousel-control-next{
-  background-color: #b6e6bd;
+
+
+.carousel-control:hover{
+  opacity: 0.8;
 }
 
 .bildarkiv-links{
