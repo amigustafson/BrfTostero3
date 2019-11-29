@@ -57,6 +57,23 @@ a{
   color: #333333;
 }
 
+.button-style{
+  font-size: 1.2rem;
+  border-radius: 15px;
+}
+
+.info-box-style{
+  border-radius: 40px;
+  transition: 0.12s;
+  border-style: hidden;
+  box-shadow: none;
+}
+
+.full-width{
+  width: 100%;
+  margin: 0;
+}
+
 .btn.active.focus, .btn.active:focus, .btn.focus, .btn:active.focus, .btn:active:focus, .btn:focus {
     outline: 0;
 }
@@ -77,15 +94,10 @@ a{
   transition: 0.3s;
 }
 
-.search-bar{
-  font-size: 1.2rem;
-    border-radius: 15px;
-}
+
 
 .search-button{
   border-color: #4baea0;
-  font-size: 1.2rem;
-  border-radius: 15px;
   color: #4baea0;
 }
 
@@ -111,8 +123,6 @@ a{
   width: 80%;
   height: 25%;
   background-color: #f0c9c9;
-  border-radius: 40px;
-  transition: 0.2s;
 }
 
 .nyheter-rubrik{
@@ -130,7 +140,6 @@ a{
   height: 60%;
   object-fit: cover;
   margin: 5% 5% 0 5%;
-  border-radius: 40px;
 }
 
 
@@ -150,7 +159,6 @@ a{
 }
 
 .start-text{
-  width: 100%;
   margin-bottom: 5%;
 }
 
@@ -160,32 +168,26 @@ a{
   background-color: #f0c9c9;
   padding: 10px;
   margin:4%;
-  border-radius: 15px;
   color: #333333;
-  transition: 0.2s;
 }
 
 .medlemsknapp:hover{
   padding: 15px;
   cursor: pointer;
   text-decoration: none;
- color:#333333
+  color:#333333
 }
 
-
-.kontakt-text{
+.contact-text{
   margin: 5%;
+  text-align: left;
 }
 
-.kontakt-rubrik{
-  margin: 5%;
-}
-
-.kontakt-text p{
+.contact-text p{
   margin: 1% 0 0 4%;
 }
 
-.kontakt-kontakt-rubrik{
+.contact-rubrik{
   margin-left: 8%;
 }
 
@@ -193,26 +195,24 @@ a{
   margin: 0 0 15.8% 5%;
 }
 
-/*-------------------- LAYOUT --------------------------*/
+/*-------------------- HOME PAGE LAYOUT --------------------------*/
 
-.col1{
+.welcome-style{
   background-color: #f1f0cf;
   max-height: 60vh;
 }
-.col2{
-  background-color: #4baea0;
-}
 
-.kontakter-container{
+.contacter-container{
   margin-top: 12.7%;
   border-radius: 80px 80px 0 80px;
   background-color: #b6e6bd;
   max-height: 30vh;
 }
-.kontakt-col1{
+
+.contact-col1{
   border-radius: 100px;
 }
-.kontakt-col2{
+.contact-col2{
   border-radius: 0 50px 0 0;
 }
 
@@ -221,6 +221,7 @@ a{
   padding: 5px;
   margin: 0;
   border-radius: 80px 80px 80px 0;
+  background-color: #4baea0;
 }
 
 .letter-index, h3{
@@ -236,13 +237,7 @@ align-items: center;
 .maklarinfo-paragraf, .moteninfo-paragraf{
   margin-top: 5%;
   padding: 5%;
-  border-radius: 40px;
-  transition: 0.12s;
   background-color: #fcfcfc;
-}
-
-.maklarinfo-paragraf ul, .moteninfo-paragraf ul{
-  width: 100%;
 }
 
 /*____________________________________________________________________________*/
@@ -251,40 +246,27 @@ align-items: center;
   margin-left: 0;
 }
 
-.tre-stora-knappar{
+.big-topic-buttons{
   display: flex;
   justify-content: center;
-  width: 40%;
-  margin: 10% auto 5% auto;
-  transition: 0.125s;
-}
-
-.tre-stora-knappar:hover{
-  width: 50%;
-  cursor: pointer;
-}
-
-.text-tre-stora-knappar{
-  width: 80%;
-  display:flex;
-  margin: 0 10%;
-  flex-direction: column;
-  text-align: center;
-
-}
-
-.two-big-imgs{
-  margin: 15% 33% 5% 33%;
   width: 30%;
+  margin: 15% auto 5% auto;
   transition: 0.125s;
 }
 
-.two-big-imgs:hover{
+.big-topic-buttons:hover, .two-big-imgs:hover{
   width: 35%;
   cursor: pointer;
 }
 
-.header-kontakt{
+.text-big-topic-buttons{
+  width: 80%;
+  display:flex;
+  margin: 0 10%;
+  flex-direction: column;
+}
+
+.header-contact{
   margin: auto;
 }
 
@@ -317,12 +299,6 @@ margin-top: 23%;
 .item img{
     height: 100% !important;
     width:  100% !important;
-}
-
-
-.nytt-tosteroblad, .nytt-protokoll{
-  width: 100%;
-  margin: 0;
 }
 
 .gammalt-tosteroblad, .gammalt-protokoll{
@@ -358,9 +334,8 @@ margin-top: 23%;
 .bildarkiv-link{
   width: 50%;
   max-height: 28vh;
-  border-radius: 40px;
-  transition: 0.2s;
 }
+
 .bildarkiv-link:hover{
   width: 55%;
 }
@@ -379,17 +354,6 @@ margin-top: 23%;
   background-color: #b6e6bd;
   cursor: pointer;
 }
-
-.modal-content{
-border-style: hidden;
-border-radius: 40px;
-box-shadow: none;
-}
-
-.modal-img{
-  width: 100%;
-}
-
 /*____________________________________________________________________________*/
 .center-text{
   text-align: center;
@@ -409,7 +373,6 @@ box-shadow: none;
   color: #fcfcfc; /* Text color */
   cursor: pointer; /* Add a mouse pointer on hover */
   padding: 0 20px; /* Some padding */
-  border-radius: 10px; /* Rounded corners */
   font-size: 4rem; /* Increase font size */
   transition: 0.125s
 }
