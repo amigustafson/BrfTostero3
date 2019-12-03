@@ -118,18 +118,18 @@ a{
   margin: 25% 2% 0 20%;
 }
 
-.nyhet{
+.news{
   margin: 5% auto;
   width: 80%;
   height: 25%;
   background-color: #f0c9c9;
 }
 
-.nyheter-rubrik{
+.news-title{
   margin: 4% 0 4% 11%;
 }
 
-.nyhet:hover{
+.news:hover{
   width: 85%;
   height: 32%;
   cursor: pointer;
@@ -162,7 +162,7 @@ a{
   margin-bottom: 5%;
 }
 
-.medlemsknapp{
+.members-button{
   width: 10%;
   height: 50px;
   background-color: #f0c9c9;
@@ -171,7 +171,7 @@ a{
   color: #333333;
 }
 
-.medlemsknapp:hover{
+.members-button:hover{
   padding: 15px;
   cursor: pointer;
   text-decoration: none;
@@ -187,7 +187,7 @@ a{
   margin: 1% 0 0 4%;
 }
 
-.contact-rubrik{
+.contact-title{
   margin-left: 8%;
 }
 
@@ -202,7 +202,7 @@ a{
   max-height: 60vh;
 }
 
-.contacter-container{
+.contacts-container{
   margin-top: 12.7%;
   border-radius: 80px 80px 0 80px;
   background-color: #b6e6bd;
@@ -216,7 +216,7 @@ a{
   border-radius: 0 50px 0 0;
 }
 
-.nyheter-container{
+.news-container{
   max-height: 85.1vh;
   padding: 5px;
   margin: 0;
@@ -228,13 +228,13 @@ a{
   line-height: 0.9;
 }
 
-.maklarinfo-text, .moteninfo-text{
+.info-text{
 display: flex;
 flex-direction: column;
 align-items: center;
 }
 
-.maklarinfo-paragraf, .moteninfo-paragraf{
+.info-paragraph{
   margin-top: 5%;
   padding: 5%;
   background-color: #fcfcfc;
@@ -301,18 +301,6 @@ margin-top: 23%;
     width:  100% !important;
 }
 
-.gammalt-tosteroblad, .gammalt-protokoll{
-  width: 60%;
-  margin: 5% 20% 0 20%;
-}
-
-.gammalt-tosteroblad:hover, .gammalt-protokoll:hover{
-  cursor: pointer;
-  width: 64%;
-  margin: 5% 17% 0 17%;
-  transition: 0.125s;
-}
-
 
 .carousel-control, .carousel-control:focus{
   background-color: #b6e6bd;
@@ -340,28 +328,41 @@ margin-top: 23%;
   width: 55%;
 }
 
-.galleri{
+.gallery{
   margin: 2% 10%;
 }
 
-.galleri-bild{
+.gallery-img{
   border-radius: 0 0 40px 40px;
   transition: 0.2s;
   border-style: hidden;
 }
 
-.galleri-bild:hover{
+.gallery-img:hover{
   background-color: #b6e6bd;
   cursor: pointer;
 }
+
+.old-document{
+  width: 60%;
+  margin: 5% 20% 0 20%;
+}
+
+.old-document:hover{
+  cursor: pointer;
+  width: 64%;
+  margin: 5% 17% 0 17%;
+  transition: 0.125s;
+}
+
 /*____________________________________________________________________________*/
 .center-text{
   text-align: center;
 }
 
-/*--------------UppKnapp----------------*/
+/*--------------toTopButton----------------*/
 
-#uppKnapp {
+#toTopButton {
   opacity: 0;
   position: fixed; /* Fixed/sticky position */
   bottom: 4%; /* Place the button at the bottom of the page */
@@ -377,6 +378,6 @@ margin-top: 23%;
   transition: 0.125s
 }
 
-#uppKnapp:hover {
+#toTopButton:hover {
   background-color: #b6e6bd; /* Add a dark-grey background on hover */
 }

@@ -31,7 +31,7 @@ function timeImage(){
 window.addEventListener("scroll", ()=>{
   var scrollDistance = window.scrollY;
   if(scrollDistance > 50){
-    document.querySelector("#uppKnapp").style.opacity=1
+    document.querySelector("#toTopButton").style.opacity=1
   }
 
 })
@@ -39,7 +39,7 @@ window.addEventListener("scroll", ()=>{
 window.addEventListener("scroll", ()=>{
   var scrollDistance = window.scrollY;
   if(scrollDistance > 50){
-    document.querySelector("#uppKnapp2").style.opacity=1
+    document.querySelector("#toTopButton2").style.opacity=1
   }
 
 })
