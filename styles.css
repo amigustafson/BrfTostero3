@@ -313,18 +313,18 @@ margin-top: 23%;
   opacity: 0.8;
 }
 
-.bildarkiv-links{
+.gallery-links{
   text-align: center;
   margin: 2% auto;
 
 }
 
-.bildarkiv-link{
+.gallery-link{
   width: 50%;
   max-height: 28vh;
 }
 
-.bildarkiv-link:hover{
+.gallery-link:hover{
   width: 55%;
 }
 
