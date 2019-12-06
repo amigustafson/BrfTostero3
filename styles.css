@@ -114,7 +114,6 @@ a{
   margin-left: 10px;
 }
 
-/* ------------------- STARTSIDA ----------------------*/
 
 .front-img{
   width: 60%;
@@ -124,7 +123,7 @@ a{
 .news{
   margin: 5% auto;
   width: 80%;
-  height: 40%;
+  height: 38%;
   background-color: #f0c9c9;
 }
 
@@ -134,7 +133,7 @@ a{
 
 .news:hover{
   width: 85%;
-  height: 45%;
+  height: 44%;
   cursor: pointer;
 }
 
@@ -194,7 +193,7 @@ a{
 
 /*-------------------- HOME PAGE LAYOUT --------------------------*/
 .contacts-container{
-  margin-top: 12.7%;
+  margin-top: 10%;
   border-radius: 80px 80px 0 80px;
   background-color: #b6e6bd;
 }
@@ -207,7 +206,6 @@ a{
 }
 
 .news-container{
-  padding: 5px;
   margin: 0;
   border-radius: 80px 80px 80px 0;
   background-color: #4baea0;
