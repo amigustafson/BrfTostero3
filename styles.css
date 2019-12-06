@@ -94,7 +94,10 @@ a{
   transition: 0.3s;
 }
 
-
+.navbar-collapse{
+  background-color: #f1f0cf;
+  z-index: 5;
+}
 
 .search-button{
   border-color: #4baea0;
@@ -121,7 +124,7 @@ a{
 .news{
   margin: 5% auto;
   width: 80%;
-  height: 25%;
+  height: 40%;
   background-color: #f0c9c9;
 }
 
@@ -131,7 +134,7 @@ a{
 
 .news:hover{
   width: 85%;
-  height: 32%;
+  height: 45%;
   cursor: pointer;
 }
 
@@ -145,7 +148,6 @@ a{
 
 .news-text{
  margin: 0;
-
 }
 
 .news-header{
@@ -159,7 +161,8 @@ a{
 }
 
 .start-text{
-  margin-bottom: 5%;
+  margin: 0 5% 15.8% 5%;
+  padding: 0 8% 0 0;
 }
 
 .members-button{
@@ -179,34 +182,21 @@ a{
 }
 
 .contact-text{
-  margin: 5%;
+  margin: 5% 5% 5% 8%;
   text-align: left;
-}
-
-.contact-text p{
-  margin: 1% 0 0 4%;
 }
 
 .contact-title{
   margin-left: 8%;
 }
 
-.start-text{
-  margin: 0 0 15.8% 5%;
-}
+
 
 /*-------------------- HOME PAGE LAYOUT --------------------------*/
-
-.welcome-style{
-  background-color: #f1f0cf;
-  max-height: 60vh;
-}
-
 .contacts-container{
   margin-top: 12.7%;
   border-radius: 80px 80px 0 80px;
   background-color: #b6e6bd;
-  max-height: 30vh;
 }
 
 .contact-col1{
@@ -217,11 +207,11 @@ a{
 }
 
 .news-container{
-  max-height: 85.1vh;
   padding: 5px;
   margin: 0;
   border-radius: 80px 80px 80px 0;
   background-color: #4baea0;
+
 }
 
 .letter-index, h3{
