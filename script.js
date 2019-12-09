@@ -1,7 +1,5 @@
-//HOME PAGE
 
-//Image change over the course of the day.
-
+//Image change over the course of the day.______________________________________
 function timeImage(){
   var time = new Date().getHours();
   //morning: 0500-1000
@@ -26,27 +24,25 @@ function timeImage(){
     console.log(time + "night");
   }
 }
+//______________________________________________________________________________
 
 
+//toTopButton___________________________________________________________________
 window.addEventListener("scroll", ()=>{
   var scrollDistance = window.scrollY;
   if(scrollDistance > 50){
     document.querySelector("#toTopButton").style.opacity=1
   }
-
 })
-
 window.addEventListener("scroll", ()=>{
   var scrollDistance = window.scrollY;
   if(scrollDistance > 50){
     document.querySelector("#toTopButton2").style.opacity=1
   }
-
 })
-
-
 
 //OnClick
 function uppFunction(){
   window.scrollTo(0,0)
 }
+//______________________________________________________________________________
