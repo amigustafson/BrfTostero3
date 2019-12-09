@@ -1,3 +1,5 @@
+
+/*___________________________________ info ___________________________________*/
 /*
 COLORS
 #4baea0
@@ -6,7 +8,13 @@ COLORS
 #f0c9c9
 #fcfcfc
 #333333*/
+/*_________________________________ end info _________________________________*/
 
+
+
+
+/*_________________________________ GENERAL __________________________________*/
+/*______________________________ general tags ________________________________*/
 html{
   scroll-behavior: smooth;
 }
@@ -21,7 +29,6 @@ body{
   font-family: 'Jaldi', sans-serif;
   font-size: 1.2rem;
   color: #333333;
-
 }
 
 ul{
@@ -49,17 +56,28 @@ h3{
 
 p{
   text-align: left;
-
   font-size: 1rem;
 }
 
 a{
   color: #333333;
 }
+/*_____________________________ end general tags _____________________________*/
 
-.button-style{
-  font-size: 1.2rem;
-  border-radius: 15px;
+
+/*_____________________________ generic classes ______________________________*/
+.no-gutters {
+  margin-right: 0;
+  margin-left: 0;
+}
+
+.full-width{
+  width: 100%;
+  margin: 0;
+}
+
+.center-text{
+  text-align: center;
 }
 
 .info-box-style{
@@ -69,15 +87,75 @@ a{
   box-shadow: none;
 }
 
-.full-width{
-  width: 100%;
-  margin: 0;
+.info-text{
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+.info-paragraph{
+  margin-top: 5%;
+  padding: 5%;
+  background-color: #fcfcfc;
+}
+
+.button-style{
+  font-size: 1.2rem;
+  border-radius: 15px;
+}
+
+.big-topic-buttons{
+  display: flex;
+  justify-content: center;
+  width: 30%;
+  margin: 15% auto 5% auto;
+  transition: 0.125s;
+}
+
+.big-topic-buttons:hover, .two-big-imgs:hover{
+  width: 35%;
+  cursor: pointer;
+}
+
+.text-big-topic-buttons{
+  width: 80%;
+  display:flex;
+  margin: 0 10%;
+  flex-direction: column;
 }
 
 .btn.active.focus, .btn.active:focus, .btn.focus, .btn:active.focus, .btn:active:focus, .btn:focus {
     outline: 0;
 }
+/*____________________________ end generic classes ___________________________*/
 
+
+/*________________________________toTopButton_________________________________*/
+#toTopButton {
+  opacity: 0;
+  position: fixed; /* Fixed/sticky position */
+  bottom: 4%; /* Place the button at the bottom of the page */
+  right: 2.5%; /* Place the button 30px from the right */
+  z-index: 99; /* Make sure it does not overlap */
+  border: none; /* Remove borders */
+  outline: none; /* Remove outline */
+  background-color: #f0c9c9; /* Set a background color */
+  color: #fcfcfc; /* Text color */
+  cursor: pointer; /* Add a mouse pointer on hover */
+  padding: 0 20px; /* Some padding */
+  font-size: 4rem; /* Increase font size */
+  transition: 0.125s
+}
+
+#toTopButton:hover {
+  background-color: #b6e6bd; /* Add a dark-grey background on hover */
+}
+/*______________________________ end toTopButton _____________________________*/
+/*_______________________________ END GENERAL ________________________________*/
+
+
+/*_____________________________ PAGE SPECEIFICS ______________________________*/
+/*____________________________ navbar & breadcrumbs __________________________*/
 .navbar-custom{
   background-color: #f1f0cf !important;
   height: 15vh;
@@ -113,11 +191,62 @@ a{
   padding: 0;
   margin-left: 10px;
 }
+/*_________________________ end navbar & breadcrumbs _________________________*/
 
+
+/*______________________________ index.html ________________________________*/
+.start-text{
+  margin: 0 5% 15.8% 5%;
+  padding: 0 8% 0 0;
+}
+
+.members-button{
+  width: 10%;
+  height: 50px;
+  background-color: #f0c9c9;
+  padding: 10px;
+  margin:4%;
+  color: #333333;
+}
+
+.members-button:hover{
+  padding: 15px;
+  cursor: pointer;
+  text-decoration: none;
+  color:#333333
+}
 
 .front-img{
   width: 60%;
   margin: 25% 2% 0 20%;
+}
+
+.contacts-container{
+  margin-top: 10%;
+  border-radius: 80px 80px 0 80px;
+  background-color: #b6e6bd;
+}
+
+.contact-col1{
+  border-radius: 100px;
+}
+.contact-col2{
+  border-radius: 0 50px 0 0;
+}
+
+.contact-text{
+  margin: 5% 5% 5% 8%;
+  text-align: left;
+}
+
+.contact-title{
+  margin-left: 8%;
+}
+
+.news-container{
+  margin: 0;
+  border-radius: 80px 80px 80px 0;
+  background-color: #4baea0;
 }
 
 .news{
@@ -144,7 +273,6 @@ a{
   margin: 5% 5% 0 5%;
 }
 
-
 .news-text{
  margin: 0;
 }
@@ -153,111 +281,10 @@ a{
   font-size: 1.2rem;
   margin-bottom: 0;
 }
-
-.news-paragraph{
-  font-size: 1rem;
-  margin: 0;
-}
-
-.start-text{
-  margin: 0 5% 15.8% 5%;
-  padding: 0 8% 0 0;
-}
-
-.members-button{
-  width: 10%;
-  height: 50px;
-  background-color: #f0c9c9;
-  padding: 10px;
-  margin:4%;
-  color: #333333;
-}
-
-.members-button:hover{
-  padding: 15px;
-  cursor: pointer;
-  text-decoration: none;
-  color:#333333
-}
-
-.contact-text{
-  margin: 5% 5% 5% 8%;
-  text-align: left;
-}
-
-.contact-title{
-  margin-left: 8%;
-}
+/*_______________________________ end index.html _____________________________*/
 
 
-
-/*-------------------- HOME PAGE LAYOUT --------------------------*/
-.contacts-container{
-  margin-top: 10%;
-  border-radius: 80px 80px 0 80px;
-  background-color: #b6e6bd;
-}
-
-.contact-col1{
-  border-radius: 100px;
-}
-.contact-col2{
-  border-radius: 0 50px 0 0;
-}
-
-.news-container{
-  margin: 0;
-  border-radius: 80px 80px 80px 0;
-  background-color: #4baea0;
-
-}
-
-.letter-index, h3{
-  line-height: 0.9;
-}
-
-.info-text{
-display: flex;
-flex-direction: column;
-align-items: center;
-}
-
-.info-paragraph{
-  margin-top: 5%;
-  padding: 5%;
-  background-color: #fcfcfc;
-}
-
-/*____________________________________________________________________________*/
-.no-gutters {
-  margin-right: 0;
-  margin-left: 0;
-}
-
-.big-topic-buttons{
-  display: flex;
-  justify-content: center;
-  width: 30%;
-  margin: 15% auto 5% auto;
-  transition: 0.125s;
-}
-
-.big-topic-buttons:hover, .two-big-imgs:hover{
-  width: 35%;
-  cursor: pointer;
-}
-
-.text-big-topic-buttons{
-  width: 80%;
-  display:flex;
-  margin: 0 10%;
-  flex-direction: column;
-}
-
-.header-contact{
-  margin: auto;
-}
-
+/*____________________________ info-kontakt.html______________________________*/
 .img-radstornet{
  margin-top: 20%;
 }
@@ -273,11 +300,10 @@ margin-top: 23%;
 .text-aphos{
   margin-top:22%;
 }
+/*_________________________ end info-kontakt-html_____________________________*/
 
-.center-text{
-  text-align: center;
-}
 
+/*____________________________ bildgalleri.html_______________________________*/
 .carousel-inner{
     height: 50vh;
     display: flex;
@@ -289,13 +315,10 @@ margin-top: 23%;
     width:  100% !important;
 }
 
-
 .carousel-control, .carousel-control:focus{
   background-color: #b6e6bd;
   opacity: 0.5;
 }
-
-
 
 .carousel-control:hover{
   opacity: 0.8;
@@ -304,7 +327,6 @@ margin-top: 23%;
 .gallery-links{
   text-align: center;
   margin: 2% auto;
-
 }
 
 .gallery-link{
@@ -315,7 +337,10 @@ margin-top: 23%;
 .gallery-link:hover{
   width: 55%;
 }
+/*__________________________ end bildgalleri.html ____________________________*/
 
+
+/*___________________________ gallery archive pages __________________________*/
 .gallery{
   margin: 2% 10%;
 }
@@ -330,7 +355,10 @@ margin-top: 23%;
   background-color: #b6e6bd;
   cursor: pointer;
 }
+/*________________________ end gallery archive pages _________________________*/
 
+
+/*______________________ protokoll.html, tosteroblad.html ____________________*/
 .old-document{
   width: 60%;
   margin: 5% 20% 0 20%;
@@ -342,30 +370,5 @@ margin-top: 23%;
   margin: 5% 17% 0 17%;
   transition: 0.125s;
 }
-
-/*____________________________________________________________________________*/
-.center-text{
-  text-align: center;
-}
-
-/*--------------toTopButton----------------*/
-
-#toTopButton {
-  opacity: 0;
-  position: fixed; /* Fixed/sticky position */
-  bottom: 4%; /* Place the button at the bottom of the page */
-  right: 2.5%; /* Place the button 30px from the right */
-  z-index: 99; /* Make sure it does not overlap */
-  border: none; /* Remove borders */
-  outline: none; /* Remove outline */
-  background-color: #f0c9c9; /* Set a background color */
-  color: #fcfcfc; /* Text color */
-  cursor: pointer; /* Add a mouse pointer on hover */
-  padding: 0 20px; /* Some padding */
-  font-size: 4rem; /* Increase font size */
-  transition: 0.125s
-}
-
-#toTopButton:hover {
-  background-color: #b6e6bd; /* Add a dark-grey background on hover */
-}
+/*____________________ end protokoll.html, tosteroblad.html __________________*/
+/*__________________________ END PAGE SPECEIFICS _____________________________*/
