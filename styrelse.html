@@ -1,3 +1,4 @@
+<!--_____________________________ BOILER PLATE ______________________________-->
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
 
@@ -7,20 +8,22 @@
   <link href="https://fonts.googleapis.com/css?family=Jaldi|Sacramento&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <link rel="stylesheet" href="styles.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
+<!--_________________________ END BOILER PLATE ______________________________-->
+
 
 <body>
 
-  <!-- NAVBAR -->
+
+<!--_________________________ NAVBAR & BREADRUMBS ___________________________-->
   <nav class="navbar navbar-custom navbar-expand-lg navbar-light bg-light">
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
-
-    <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+    <div class="collapse navbar-collapse" id="navbarToggler">
       <a class="navbar-brand" href="index.html">Tosterö 3</a>
       <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-
         <li class="nav-item">
           <a class="nav-link" href="medlem.html">För Medlemmar</a>
         </li>
@@ -33,40 +36,38 @@
         <li class="nav-item active">
           <a class="nav-link" href="styrelse.html">För styrelse</a>
         </li>
-
       </ul>
-
     </div>
-
   </nav>
   <div class="breadcrumbs">
     <a href="index.html">/ Hem </a><strong> / Styrelse </strong>
   </div>
+<!--_________________________ NAVBAR & BREADRUMBS ___________________________-->
 
-  <!-- Content-->
 
+<!--____________________________ MAIN CONTENT _______________________________-->
   <div class="row">
     <div class="col-md-6 col-sm-12">
       <a href="protokoll.html">
-      <img src="imgs/document.png" class="two-big-imgs" alt="protokoll">
+      <img src="imgs/document.png" class="big-topic-buttons" alt="protokoll">
       </a>
       <h3 class="center-text">Protokoll</h3>
     </div>
     <div class="col-md-6 col-sm-12">
       <a href="moten.html">
-      <img src="imgs/round-table.png" class="two-big-imgs" alt="möten">
-
+      <img src="imgs/round-table.png" class="big-topic-buttons" alt="möten">
       </a>
         <h3 class="center-text">Kommande möten</h3>
     </div>
   </div>
+<!--________________________ END MAIN CONTENT _______________________________-->
 
-  <!-- SCRIPTS: jquery, popper, bootstrap js, js-->
+
+<!--______________ SCRIPTS: jquery, popper, bootstrap js, js ________________-->
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
   <script type="text/javascript" src="script.js"></script>
 
 </body>
-
 </html>

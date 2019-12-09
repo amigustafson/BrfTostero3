@@ -1,3 +1,4 @@
+<!--_____________________________ BOILER PLATE ______________________________-->
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
 
@@ -7,20 +8,22 @@
   <link href="https://fonts.googleapis.com/css?family=Jaldi|Sacramento&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <link rel="stylesheet" href="styles.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
+<!--_________________________ END BOILER PLATE ______________________________-->
+
 
 <body>
 
-  <!-- NAVBAR -->
+
+<!--_________________________ NAVBAR & BREADRUMBS ___________________________-->
   <nav class="navbar navbar-custom navbar-expand-lg navbar-light bg-light">
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
-
-    <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+    <div class="collapse navbar-collapse" id="navbarToggler">
       <a class="navbar-brand" href="index.html">Tosterö 3</a>
       <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-
         <li class="nav-item active">
           <a class="nav-link" href="medlem.html">För Medlemmar</a>
         </li>
@@ -33,7 +36,6 @@
         <li class="nav-item">
           <a class="nav-link" href="styrelse.html">För styrelse</a>
         </li>
-
       </ul>
     </div>
   </nav>
@@ -41,24 +43,23 @@
   <div class="breadcrumbs">
     <a href="index.html">/ Hem </a> <a href="medlem.html"> / Medlem</a><strong> / Tosteröbladet </strong>
   </div>
-  <!-- CONTENT -->
 
+<!--_____________________ END NAVBAR & BREADRUMBS ___________________________-->
+
+
+<!--____________________________ MAIN CONTENT _______________________________-->
   <div class="row">
-
     <div class="col-md-1">
-
     </div>
-
     <div class="col-md-10">
-
-      <a data-toggle="modal" data-target="#modal-tosteroblad-jan20" >
-        <img src="imgs/blad.png" alt="tosteröblad" class="nytt-tosteroblad">
+      <a data-toggle="modal" data-target="#modal-tosteroblad-jan20">
+        <img src="imgs/blad.png" alt="tosteröblad" class="full-width">
       </a>
       <div class="modal fade" id="modal-tosteroblad-jan20" tabindex="-1" role="dialog" aria-labelledby="ModalCenterTitle" aria-hidden="true">
         <div class="modal-dialog modal-dialog-centered" role="document">
           <div class="modal-content">
             <div class="modal-header">
-              <h5 class="modal-title" id="ModalLongTitle">Tosteröblad Januari 2020</h5>
+              <h5 class="modal-title">Tosteröblad Januari 2020</h5>
               <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                 <span aria-hidden="true">&times;</span>
               </button>
@@ -73,28 +74,21 @@
           </div>
         </div>
       </div>
-
     </div>
-
     <div class="col-md-1">
-
     </div>
-
   </div>
-
-
-
 
   <div class="row">
     <div class="col-md-4">
-      <a data-toggle="modal" data-target="#modal-tosteroblad-dec19" >
-        <img src="imgs/blad.png" alt="tosteröblad"class="gammalt-tosteroblad">
+      <a data-toggle="modal" data-target="#modal-tosteroblad-dec19">
+        <img src="imgs/blad.png" alt="tosteröblad" class="old-document">
       </a>
       <div class="modal fade" id="modal-tosteroblad-dec19" tabindex="-1" role="dialog" aria-labelledby="ModalCenterTitle" aria-hidden="true">
         <div class="modal-dialog modal-dialog-centered" role="document">
           <div class="modal-content">
             <div class="modal-header">
-              <h5 class="modal-title" id="ModalLongTitle">Tosteröblad December 2019</h5>
+              <h5 class="modal-title">Tosteröblad December 2019</h5>
               <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                 <span aria-hidden="true">&times;</span>
               </button>
@@ -111,14 +105,14 @@
       </div>
     </div>
     <div class="col-md-4">
-      <a data-toggle="modal" data-target="#modal-tosteroblad-nov19" >
-        <img src="imgs/blad.png" alt="tosteröblad"class="gammalt-tosteroblad">
+      <a data-toggle="modal" data-target="#modal-tosteroblad-nov19">
+        <img src="imgs/blad.png" alt="tosteröblad" class="old-document">
       </a>
       <div class="modal fade" id="modal-tosteroblad-nov19" tabindex="-1" role="dialog" aria-labelledby="ModalCenterTitle" aria-hidden="true">
         <div class="modal-dialog modal-dialog-centered" role="document">
           <div class="modal-content">
             <div class="modal-header">
-              <h5 class="modal-title" id="ModalLongTitle">Tosteröblad November 2019</h5>
+              <h5 class="modal-title">Tosteröblad November 2019</h5>
               <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                 <span aria-hidden="true">&times;</span>
               </button>
@@ -135,14 +129,14 @@
       </div>
     </div>
     <div class="col-md-4">
-      <a data-toggle="modal" data-target="#modal-tosteroblad-okt19" >
-        <img src="imgs/blad.png" alt="tosteröblad"class="gammalt-tosteroblad">
+      <a data-toggle="modal" data-target="#modal-tosteroblad-okt19">
+        <img src="imgs/blad.png" alt="tosteröblad" class="old-document">
       </a>
       <div class="modal fade" id="modal-tosteroblad-okt19" tabindex="-1" role="dialog" aria-labelledby="ModalCenterTitle" aria-hidden="true">
         <div class="modal-dialog modal-dialog-centered" role="document">
           <div class="modal-content">
             <div class="modal-header">
-              <h5 class="modal-title" id="ModalLongTitle">Tosteröblad Oktober 2019</h5>
+              <h5 class="modal-title">Tosteröblad Oktober 2019</h5>
               <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                 <span aria-hidden="true">&times;</span>
               </button>
@@ -151,7 +145,7 @@
               <img src="imgs/blad.png" alt="Tosteröblad 2020">
             </div>
             <div class="modal-footer">
-            <button type="button" class="btn btn-secondary" name="button">Ladda Ner</button>
+              <button type="button" class="btn btn-secondary" name="button">Ladda Ner</button>
               <button type="button" class="btn btn-secondary" data-dismiss="modal">Stäng</button>
             </div>
           </div>
@@ -162,14 +156,14 @@
 
   <div class="row">
     <div class="col-md-4">
-      <a data-toggle="modal" data-target="#modal-tosteroblad-sep19" >
-        <img src="imgs/blad.png" alt="tosteröblad"class="gammalt-tosteroblad">
+      <a data-toggle="modal" data-target="#modal-tosteroblad-sep19">
+        <img src="imgs/blad.png" alt="tosteröblad" class="old-document">
       </a>
       <div class="modal fade" id="modal-tosteroblad-sep19" tabindex="-1" role="dialog" aria-labelledby="ModalCenterTitle" aria-hidden="true">
         <div class="modal-dialog modal-dialog-centered" role="document">
           <div class="modal-content">
             <div class="modal-header">
-              <h5 class="modal-title" id="ModalLongTitle">Tosteröblad September 2019</h5>
+              <h5 class="modal-title">Tosteröblad September 2019</h5>
               <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                 <span aria-hidden="true">&times;</span>
               </button>
@@ -178,7 +172,7 @@
               <img src="imgs/blad.png" alt="Tosteröblad 2020">
             </div>
             <div class="modal-footer">
-            <button type="button" class="btn btn-secondary" name="button">Ladda Ner</button>
+              <button type="button" class="btn btn-secondary" name="button">Ladda Ner</button>
               <button type="button" class="btn btn-secondary" data-dismiss="modal">Stäng</button>
             </div>
           </div>
@@ -186,14 +180,14 @@
       </div>
     </div>
     <div class="col-md-4">
-      <a data-toggle="modal" data-target="#modal-tosteroblad-aug19" >
-        <img src="imgs/blad.png" alt="tosteröblad"class="gammalt-tosteroblad">
+      <a data-toggle="modal" data-target="#modal-tosteroblad-aug19">
+        <img src="imgs/blad.png" alt="tosteröblad" class="old-document">
       </a>
       <div class="modal fade" id="modal-tosteroblad-aug19" tabindex="-1" role="dialog" aria-labelledby="ModalCenterTitle" aria-hidden="true">
         <div class="modal-dialog modal-dialog-centered" role="document">
           <div class="modal-content">
             <div class="modal-header">
-              <h5 class="modal-title" id="ModalLongTitle">Tosteröblad Augusti 2019</h5>
+              <h5 class="modal-title">Tosteröblad Augusti 2019</h5>
               <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                 <span aria-hidden="true">&times;</span>
               </button>
@@ -202,7 +196,7 @@
               <img src="imgs/blad.png" alt="Tosteröblad 2020">
             </div>
             <div class="modal-footer">
-            <button type="button" class="btn btn-secondary" name="button">Ladda Ner</button>
+              <button type="button" class="btn btn-secondary" name="button">Ladda Ner</button>
               <button type="button" class="btn btn-secondary" data-dismiss="modal">Stäng</button>
             </div>
           </div>
@@ -210,14 +204,14 @@
       </div>
     </div>
     <div class="col-md-4">
-      <a data-toggle="modal" data-target="#modal-tosteroblad-jul19" >
-        <img src="imgs/blad.png" alt="tosteröblad"class="gammalt-tosteroblad">
+      <a data-toggle="modal" data-target="#modal-tosteroblad-jul19">
+        <img src="imgs/blad.png" alt="tosteröblad" class="old-document">
       </a>
       <div class="modal fade" id="modal-tosteroblad-jul19" tabindex="-1" role="dialog" aria-labelledby="ModalCenterTitle" aria-hidden="true">
         <div class="modal-dialog modal-dialog-centered" role="document">
           <div class="modal-content">
             <div class="modal-header">
-              <h5 class="modal-title" id="ModalLongTitle">Tosteröblad Juli 2019</h5>
+              <h5 class="modal-title">Tosteröblad Juli 2019</h5>
               <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                 <span aria-hidden="true">&times;</span>
               </button>
@@ -226,7 +220,7 @@
               <img src="imgs/blad.png" alt="Tosteröblad 2020">
             </div>
             <div class="modal-footer">
-            <button type="button" class="btn btn-secondary" name="button">Ladda Ner</button>
+              <button type="button" class="btn btn-secondary" name="button">Ladda Ner</button>
               <button type="button" class="btn btn-secondary" data-dismiss="modal">Stäng</button>
             </div>
           </div>
@@ -237,14 +231,14 @@
 
   <div class="row">
     <div class="col-md-4">
-      <a data-toggle="modal" data-target="#modal-tosteroblad-jun19" >
-        <img src="imgs/blad.png" alt="tosteröblad"class="gammalt-tosteroblad">
+      <a data-toggle="modal" data-target="#modal-tosteroblad-jun19">
+        <img src="imgs/blad.png" alt="tosteröblad" class="old-document">
       </a>
       <div class="modal fade" id="modal-tosteroblad-jun19" tabindex="-1" role="dialog" aria-labelledby="ModalCenterTitle" aria-hidden="true">
         <div class="modal-dialog modal-dialog-centered" role="document">
           <div class="modal-content">
             <div class="modal-header">
-              <h5 class="modal-title" id="ModalLongTitle">Tosteröblad Juni 2019</h5>
+              <h5 class="modal-title">Tosteröblad Juni 2019</h5>
               <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                 <span aria-hidden="true">&times;</span>
               </button>
@@ -253,7 +247,7 @@
               <img src="imgs/blad.png" alt="Tosteröblad 2020">
             </div>
             <div class="modal-footer">
-            <button type="button" class="btn btn-secondary" name="button">Ladda Ner</button>
+              <button type="button" class="btn btn-secondary" name="button">Ladda Ner</button>
               <button type="button" class="btn btn-secondary" data-dismiss="modal">Stäng</button>
             </div>
           </div>
@@ -261,14 +255,14 @@
       </div>
     </div>
     <div class="col-md-4">
-      <a data-toggle="modal" data-target="#modal-tosteroblad-maj19" >
-        <img src="imgs/blad.png" alt="tosteröblad"class="gammalt-tosteroblad">
+      <a data-toggle="modal" data-target="#modal-tosteroblad-maj19">
+        <img src="imgs/blad.png" alt="tosteröblad" class="old-document">
       </a>
       <div class="modal fade" id="modal-tosteroblad-maj19" tabindex="-1" role="dialog" aria-labelledby="ModalCenterTitle" aria-hidden="true">
         <div class="modal-dialog modal-dialog-centered" role="document">
           <div class="modal-content">
             <div class="modal-header">
-              <h5 class="modal-title" id="ModalLongTitle">Tosteröblad Maj 2019</h5>
+              <h5 class="modal-title">Tosteröblad Maj 2019</h5>
               <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                 <span aria-hidden="true">&times;</span>
               </button>
@@ -277,7 +271,7 @@
               <img src="imgs/blad.png" alt="Tosteröblad 2020">
             </div>
             <div class="modal-footer">
-            <button type="button" class="btn btn-secondary" name="button">Ladda Ner</button>
+              <button type="button" class="btn btn-secondary" name="button">Ladda Ner</button>
               <button type="button" class="btn btn-secondary" data-dismiss="modal">Stäng</button>
             </div>
           </div>
@@ -285,14 +279,14 @@
       </div>
     </div>
     <div class="col-md-4">
-      <a data-toggle="modal" data-target="#modal-tosteroblad-apr19" >
-        <img src="imgs/blad.png" alt="tosteröblad"class="gammalt-tosteroblad">
+      <a data-toggle="modal" data-target="#modal-tosteroblad-apr19">
+        <img src="imgs/blad.png" alt="tosteröblad" class="old-document">
       </a>
       <div class="modal fade" id="modal-tosteroblad-apr19" tabindex="-1" role="dialog" aria-labelledby="ModalCenterTitle" aria-hidden="true">
         <div class="modal-dialog modal-dialog-centered" role="document">
           <div class="modal-content">
             <div class="modal-header">
-              <h5 class="modal-title" id="ModalLongTitle">Tosteröblad April 2019</h5>
+              <h5 class="modal-title">Tosteröblad April 2019</h5>
               <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                 <span aria-hidden="true">&times;</span>
               </button>
@@ -301,7 +295,7 @@
               <img src="imgs/blad.png" alt="Tosteröblad 2020">
             </div>
             <div class="modal-footer">
-            <button type="button" class="btn btn-secondary" name="button">Ladda Ner</button>
+              <button type="button" class="btn btn-secondary" name="button">Ladda Ner</button>
               <button type="button" class="btn btn-secondary" data-dismiss="modal">Stäng</button>
             </div>
           </div>
@@ -313,14 +307,14 @@
   <div class="row">
 
     <div class="col-md-4">
-      <a data-toggle="modal" data-target="#modal-tosteroblad-mar19" >
-        <img src="imgs/blad.png" alt="tosteröblad"class="gammalt-tosteroblad">
+      <a data-toggle="modal" data-target="#modal-tosteroblad-mar19">
+        <img src="imgs/blad.png" alt="tosteröblad" class="old-document">
       </a>
       <div class="modal fade" id="modal-tosteroblad-mar19" tabindex="-1" role="dialog" aria-labelledby="ModalCenterTitle" aria-hidden="true">
         <div class="modal-dialog modal-dialog-centered" role="document">
           <div class="modal-content">
             <div class="modal-header">
-              <h5 class="modal-title" id="ModalLongTitle">Tosteröblad Mars 2019</h5>
+              <h5 class="modal-title">Tosteröblad Mars 2019</h5>
               <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                 <span aria-hidden="true">&times;</span>
               </button>
@@ -329,7 +323,7 @@
               <img src="imgs/blad.png" alt="Tosteröblad 2020">
             </div>
             <div class="modal-footer">
-            <button type="button" class="btn btn-secondary" name="button">Ladda Ner</button>
+              <button type="button" class="btn btn-secondary" name="button">Ladda Ner</button>
               <button type="button" class="btn btn-secondary" data-dismiss="modal">Stäng</button>
             </div>
           </div>
@@ -337,14 +331,14 @@
       </div>
     </div>
     <div class="col-md-4">
-      <a data-toggle="modal" data-target="#modal-tosteroblad-feb19" >
-        <img src="imgs/blad.png" alt="tosteröblad"class="gammalt-tosteroblad">
+      <a data-toggle="modal" data-target="#modal-tosteroblad-feb19">
+        <img src="imgs/blad.png" alt="tosteröblad" class="old-document">
       </a>
       <div class="modal fade" id="modal-tosteroblad-feb19" tabindex="-1" role="dialog" aria-labelledby="ModalCenterTitle" aria-hidden="true">
         <div class="modal-dialog modal-dialog-centered" role="document">
           <div class="modal-content">
             <div class="modal-header">
-              <h5 class="modal-title" id="ModalLongTitle">Tosteröblad Februari 2019</h5>
+              <h5 class="modal-title">Tosteröblad Februari 2019</h5>
               <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                 <span aria-hidden="true">&times;</span>
               </button>
@@ -353,7 +347,7 @@
               <img src="imgs/blad.png" alt="Tosteröblad 2020">
             </div>
             <div class="modal-footer">
-            <button type="button" class="btn btn-secondary" name="button">Ladda Ner</button>
+              <button type="button" class="btn btn-secondary" name="button">Ladda Ner</button>
               <button type="button" class="btn btn-secondary" data-dismiss="modal">Stäng</button>
             </div>
           </div>
@@ -361,14 +355,14 @@
       </div>
     </div>
     <div class="col-md-4">
-      <a data-toggle="modal" data-target="#modal-tosteroblad-jan19" >
-        <img src="imgs/blad.png" alt="tosteröblad"class="gammalt-tosteroblad">
+      <a data-toggle="modal" data-target="#modal-tosteroblad-jan19">
+        <img src="imgs/blad.png" alt="tosteröblad" class="old-document">
       </a>
       <div class="modal fade" id="modal-tosteroblad-jan19" tabindex="-1" role="dialog" aria-labelledby="ModalCenterTitle" aria-hidden="true">
         <div class="modal-dialog modal-dialog-centered" role="document">
           <div class="modal-content">
             <div class="modal-header">
-              <h5 class="modal-title" id="ModalLongTitle">Tosteröblad Januari 2019</h5>
+              <h5 class="modal-title">Tosteröblad Januari 2019</h5>
               <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                 <span aria-hidden="true">&times;</span>
               </button>
@@ -377,7 +371,7 @@
               <img src="imgs/blad.png" alt="Tosteröblad 2020">
             </div>
             <div class="modal-footer">
-            <button type="button" class="btn btn-secondary" name="button">Ladda Ner</button>
+              <button type="button" class="btn btn-secondary" name="button">Ladda Ner</button>
               <button type="button" class="btn btn-secondary" data-dismiss="modal">Stäng</button>
             </div>
           </div>
@@ -385,14 +379,14 @@
       </div>
     </div>
   </div>
+<!--________________________ END MAIN CONTENT _______________________________-->
 
 
-  <!-- SCRIPTS: jquery, popper, bootstrap js, js-->
+<!--______________ SCRIPTS: jquery, popper, bootstrap js, js ________________-->
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
   <script type="text/javascript" src="script.js"></script>
 
 </body>
-
 </html>
