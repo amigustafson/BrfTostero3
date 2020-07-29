@@ -268,7 +268,7 @@ align-items: center;
 
 .news-img{
   width: 90%;
-  height: 60%;
+  height: 25vh;
   object-fit: cover;
   margin: 5% 5% 0 5%;
 }
