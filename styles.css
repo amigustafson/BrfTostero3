@@ -362,12 +362,22 @@ margin-top: 23%;
   background-color: #b6e6bd;
   cursor: pointer;
 }
+.card-img-top{
+  height: 30vh;
+  object-fit: cover;
+}
+
+.modal-width{
+  width: 46vw;
+}
+
+
 /*________________________ end gallery archive pages _________________________*/
 
 
 /*______________________ protokoll.html, tosteroblad.html ____________________*/
 .old-document{
-  width: 60%;
+  width: 50%;
   margin: 5% 20% 0 20%;
 }
 
