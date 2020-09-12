@@ -19,28 +19,51 @@
 
 
 <!--_________________________ NAVBAR & BREADRUMBS ___________________________-->
-  <nav class="navbar navbar-custom navbar-expand-lg navbar-light bg-light">
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarToggler">
-      <a class="navbar-brand" href="index.html">Tosterö 3</a>
-      <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-        <li class="nav-item">
-          <a class="nav-link" href="medlem.html">För Medlemmar</a>
-        </li>
-        <li class="nav-item active">
-          <a class="nav-link" href="bildgalleri.html">Bildgalleri</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="maklarinfo.html">Mäklarinfo</a>
-        </li>
-        <!-- <li class="nav-item">
-          <a class="nav-link" href="styrelse.html">För styrelse</a>
-        </li> -->
-      </ul>
-    </div>
-  </nav>
+<nav class="navbar navbar-custom navbar-expand-lg navbar-light bg-light">
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarToggler">
+    <a class="navbar-brand" href="index.html">Tosterö 3</a>
+    <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+      <li class="nav-item">
+        <div class="dropdown show">
+          <a class="nav-link dropdown-toggle" href="medlem.html" id="dropdownMenuLink" data-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false">För Medlemmar</a>
+          <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+            <a class="dropdown-item" href="medlem.html">Medlemssidan</a>
+            <a class="dropdown-item" href="info-a-o.html">Info a-ö</a>
+            <a class="dropdown-item" href="info-kontakt">Kontakt</a>
+          </div>
+        </div>
+      </li>
+
+      <li class="nav-item">
+        <div class="dropdown show">
+          <a class="nav-link dropdown-toggle" href="bildgalleri.html" id="dropdownMenuLink" data-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false">Bildgalleri</a>
+          <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+            <a class="dropdown-item" href="bildgalleri.html">Bildgalleri</a>
+            <a class="dropdown-item" href="bildgalleri-2020-2025.html">2020-2025</a>
+            <a class="dropdown-item" href="hbildgalleri.html">Historiskt</a>
+          </div>
+        </div>
+      </li>
+
+      <li class="nav-item">
+        <a class="nav-link" href="maklarinfo.html">Mäklarinfo</a>
+      </li>
+      <!-- <li class="nav-item">
+        <a class="nav-link" href="styrelse.html">För styrelse</a>
+      </li> -->
+    </ul>
+    <!--  SÖKRUTA
+  <form class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2 search-bar button-style" type="search" placeholder="Sök" aria-label="Search">
+      <button class="btn btn-outline-success my-2 my-sm-0 search-button button-style" type="submit">Sök</button>
+    </form> -->
+  </div>
+</nav>
 
   <div class="breadcrumbs">
     <a href="index.html">/ Hem </a><a href="bildgalleri.html"> / Bildgalleri </a> <strong> / Historiska bilder </strong>

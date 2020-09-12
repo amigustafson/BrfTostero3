@@ -27,11 +27,29 @@
       <a class="navbar-brand" href="index.html">Tosterö 3</a>
       <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
         <li class="nav-item">
-          <a class="nav-link" href="medlem.html">För Medlemmar</a>
+          <div class="dropdown show">
+            <a class="nav-link dropdown-toggle" href="medlem.html" id="dropdownMenuLink" data-toggle="dropdown" 
+              aria-haspopup="true" aria-expanded="false">För Medlemmar</a>
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+              <a class="dropdown-item" href="medlem.html">Medlemssidan</a>
+              <a class="dropdown-item" href="info-a-o.html">Info a-ö</a>
+              <a class="dropdown-item" href="info-kontakt">Kontakt</a>
+            </div>
+          </div>
         </li>
+
         <li class="nav-item">
-          <a class="nav-link" href="bildgalleri.html">Bildgalleri</a>
+          <div class="dropdown show">
+            <a class="nav-link dropdown-toggle" href="bildgalleri.html" id="dropdownMenuLink" data-toggle="dropdown"
+              aria-haspopup="true" aria-expanded="false">Bildgalleri</a>
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+              <a class="dropdown-item" href="bildgalleri.html">Bildgalleri</a>
+              <a class="dropdown-item" href="bildgalleri-2020-2025.html">2020-2025</a>
+              <a class="dropdown-item" href="hbildgalleri.html">Historiskt</a>
+            </div>
+          </div>
         </li>
+
         <li class="nav-item">
           <a class="nav-link" href="maklarinfo.html">Mäklarinfo</a>
         </li>
@@ -125,13 +143,13 @@
       </div>
 
       <div class="news info-box-style">
-        <img class="news-img info-box-style" src="imgs/digitalised.jpeg" alt="nyhetsbild" data-toggle="modal" data-target="#modal-news2">
+        <img class="news-img info-box-style" src="imgs/dumpster.jpg" alt="nyhetsbild" data-toggle="modal" data-target="#modal-news2">
         <div class="row news-row">
           <div class="col-2">
           </div>
           <div class="col-10">
             <h5 class="news-header news-text">
-              Hemsida
+              Container hösten 2020
             </h5>
           </div>
         </div>
@@ -141,20 +159,17 @@
         <div class="modal-dialog modal-dialog-centered" role="document">
           <div class="modal-content info-box-style">
             <div class="modal-header">
-              <h5 class="modal-title" id="exampleModalLongTitle">Hemsida</h5>
+              <h5 class="modal-title" id="exampleModalLongTitle">Container hösten 2020</h5>
               <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                 <span aria-hidden="true">&times;</span>
               </button>
             </div>
             <div class="modal-body">
-              <img class="news-img info-box-style" src="imgs/digitalised.jpeg" alt="nyhetsbild">
-              <p>Nu har föreningen äntligen en hemsida! Här kan du hitta information
-               om regler, kontakter, nyheter och annat som är relevant för dig som bor
-             i bostadsrättsföreningen Tosterö 3. Ta en titt på de olika funktionerna!</p>
-            <p>Om det är något du skulle önska och som saknas på hemsidan får du gärna
-          kontakta föreningens styrelse så kommer digitaliseringsgruppen se över frågan
-        och återkomma till dig.</p>
-        <a href="mailto:brftostero3@live.se">brftostero3@live.se</a>
+              <img class="news-img info-box-style" src="imgs/dumpster.jpg" alt="nyhetsbild">
+              <p>En gång per halvår beställer föreningen en container för skrymmande sopor som inte hör hemma i de vanliga sopkärlen.
+                Denna höst kommer containern <strong>14-15 november</strong>. Tänk på att slå sönder möbler och platta ihop kartonger så att alla
+              grannar får plats med sina saker i containern. </p>
+
             </div>
             <div class="modal-footer">
               <button type="button" class="btn btn-secondary" data-dismiss="modal">Stäng</button>

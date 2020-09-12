@@ -157,7 +157,7 @@ align-items: center;
 /*____________________________ navbar & breadcrumbs __________________________*/
 .navbar-custom{
   background-color: #f1f0cf !important;
-  height: 15vh;
+  height: 12vh;
 }
 
 .navbar-brand{
@@ -190,6 +190,29 @@ align-items: center;
   padding: 0;
   margin-left: 10px;
 }
+
+.nav-link{
+  color: gray !important;
+}
+
+.nav-link:hover{
+  color: darkgrey !important;
+}
+
+.dropdown-menu{
+  background-color:rgba(0,0,0,0);
+  border: none;
+  font-size: 1.2rem;
+  color: gray !important;
+}
+
+.dropdown-item{
+
+  border: none;
+  font-size: 1.2rem;
+  color: gray !important;
+}
+
 /*_________________________ end navbar & breadcrumbs _________________________*/
 
 
