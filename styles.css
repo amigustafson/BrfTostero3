@@ -126,6 +126,23 @@ align-items: center;
 .btn.active.focus, .btn.active:focus, .btn.focus, .btn:active.focus, .btn:active:focus, .btn:focus {
     outline: 0;
 }
+
+.main-button{
+  width: 10%;
+  height: 50px;
+  background-color: #b6e6bd;
+  padding: 10px;
+  margin:4%;
+  color: #333333;
+  transition: 0.125s;
+}
+
+.main-button:hover{
+  padding: 15px;
+  cursor: pointer;
+  text-decoration: none;
+  color:#333333
+}
 /*____________________________ end generic classes ___________________________*/
 
 
@@ -222,22 +239,7 @@ align-items: center;
   padding: 0 8% 0 0;
 }
 
-.members-button{
-  width: 10%;
-  height: 50px;
-  background-color: #b6e6bd;
-  padding: 10px;
-  margin:4%;
-  color: #333333;
-  transition: 0.125s;
-}
 
-.members-button:hover{
-  padding: 15px;
-  cursor: pointer;
-  text-decoration: none;
-  color:#333333
-}
 
 .front-img{
   width: 60%;
@@ -399,6 +401,17 @@ margin-top: 23%;
 
 /*________________________ end gallery archive pages _________________________*/
 
+
+/*_____________________________ maklarinfo.html ______________________________*/
+.maklar-button{
+
+  margin:4% 0 4% 28%;
+
+}
+
+
+
+/*___________________________ end maklarinfo.html ____________________________*/
 
 /*______________________ protokoll.html, tosteroblad.html ____________________*/
 .old-document{
