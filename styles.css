@@ -66,6 +66,10 @@ a{
 
 
 /*_____________________________ generic classes ______________________________*/
+.page-container{
+  margin: 10px;
+  }
+
 .no-gutters {
   margin-right: 0;
   margin-left: 0;
