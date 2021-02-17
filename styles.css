@@ -339,7 +339,34 @@ margin-top: 23%;
 .text-aphos{
   margin-top:22%;
 }
-/*_________________________ end info-kontakt-html_____________________________*/
+/*_________________________ end info-kontakt.html_____________________________*/
+
+/*____________________________ tosteroblad.html_______________________________*/
+
+.tosteroblad-format{
+  height: 455px;
+}
+.tostero-modal-body{
+  width: 100%;
+}
+
+.big-tostero-row{
+margin-bottom: 100px;
+}
+
+.big-tostero-img{
+  width: 80%;
+  box-shadow: 1px 1px 8px #323232;
+  transition: 0.5s ease;
+
+}
+
+.big-tostero-img:hover{
+  cursor: pointer;
+  transform: scale(1.1);
+}
+
+/*_________________________ end tosteroblad.html_____________________________*/
 
 
 /*____________________________ bildgalleri.html_______________________________*/
