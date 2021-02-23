@@ -344,7 +344,11 @@ margin-top: 23%;
 /*____________________________ tosteroblad.html_______________________________*/
 
 .tosteroblad-format{
-  height: 455px;
+  height: 500px;
+  width: 80%;
+  margin: 0 0 0 10%;
+  border-radius: 5px;
+
 }
 .tostero-modal-body{
   width: 100%;
@@ -358,13 +362,19 @@ margin-bottom: 100px;
   width: 80%;
   box-shadow: 1px 1px 8px #323232;
   transition: 0.5s ease;
-
+  margin-left: 10%;
 }
 
 .big-tostero-img:hover{
   cursor: pointer;
   transform: scale(1.1);
 }
+
+.tostero-text{
+  margin: 30%  auto;
+  width: 80%;
+}
+
 
 /*_________________________ end tosteroblad.html_____________________________*/
 
